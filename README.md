@@ -1,4 +1,4 @@
-# Hi, I'm Rachel Nussbaum 👋
+# Hi, I'm Rachel Nussbaum 
 
 **Full-Stack & Systems Developer** — C++ · React · Angular · DevOps
 
