@@ -20,12 +20,15 @@ Chess without turns: every player moves in real time, with per-piece cooldowns.
 - **PostgreSQL** persistence, **Redis** sessions, **Docker Compose** deployment, OpenCV graphical client
 - `C++17` `CMake` `WebSockets` `PostgreSQL` `Redis` `Docker` `OpenCV`
 
-### 🚪 [Metzada Doors — Factory Management System](https://github.com/NussbaumRachel/MetzadaReact) (React)
+### 🚪 Metzada Doors — Factory Management System (Full-Stack)
 A management system for a door manufacturing plant: orders, customers, employees, inventory and production tasks.
+**[Frontend (React)](https://github.com/NussbaumRachel/MetzadaReact) · [Backend (ASP.NET Core)](https://github.com/NussbaumRachel/DoorsProjectInServer)**
+- **Automatic CNC program generation** — a Rule Engine turns each door's specification into a ready-to-run `.mpf` machine program
+- Layered .NET 8 API (API → Business Logic → Data Access) with **EF Core**, **SQL Server** and **JWT** authentication
 - Role-based dashboards (manager, measurer) with protected routes
 - Order builder with door configuration, Excel export and charts
 - Hebrew-calendar scheduling, form validation with **Zod** + **React Hook Form**
-- `React 19` `Redux Toolkit` `React Router` `Axios` `Recharts` `Zod`
+- `React 19` `Redux Toolkit` `C#` `.NET 8` `EF Core` `SQL Server` `JWT`
 
 ### 🎁 [Chinese Auction Manager](https://github.com/NussbaumRachel/blank-app) (Angular)
 A web app for running a charity Chinese auction — managing gifts, donors, customers, and ticket purchasing.
