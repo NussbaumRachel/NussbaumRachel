@@ -22,7 +22,7 @@ Chess without turns: every player moves in real time, with per-piece cooldowns.
 
 ### 🚪 Metzada Doors — Factory Management System (Full-Stack)
 A management system for a door manufacturing plant: orders, customers, employees, inventory and production tasks.
-**[Frontend (React)](https://github.com/NussbaumRachel/MetzadaReact) · [Backend (ASP.NET Core)](https://github.com/NussbaumRachel/DoorsProjectInServer)**
+**[Frontend (React)](https://github.com/metzada-doors/MetzadaReact) · [Backend (ASP.NET Core)](https://github.com/metzada-doors/DoorsProjectInServer)**
 - **Automatic CNC program generation** — a Rule Engine turns each door's specification into a ready-to-run `.mpf` machine program
 - Layered .NET 8 API (API → Business Logic → Data Access) with **EF Core**, **SQL Server** and **JWT** authentication
 - Role-based dashboards (manager, measurer) with protected routes
