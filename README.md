@@ -1,8 +1,8 @@
 # Hi, I'm Rachel Nussbaum 
 
-**Full-Stack & Systems Developer** — C++ · React · Angular · DevOps
+**Verification & Software Engineer** — SystemVerilog/UVM · C++ · Full-Stack · DevOps
 
-I build software end to end, from real-time multiplayer servers in modern C++ to production-style web apps and the CI/Docker pipelines around them. I care about clean architecture, clear separation of responsibilities, and code that other developers can read.
+I work on both sides of the hardware/software line: I build **UVM verification environments** that prove a design does exactly what the spec says, and I build software end to end, from real-time multiplayer servers in modern C++ to production-style web apps and the CI/Docker pipelines around them. In both, I care about layered architecture, reusable components, and checks that catch bugs automatically.
 
 <!-- Add your links here, e.g.:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-HANDLE)
@@ -12,6 +12,15 @@ I build software end to end, from real-time multiplayer servers in modern C++ to
 ---
 
 ## 🚀 Featured Projects
+
+### 🔬 [UVM Verification Environment — YAPP Router](https://github.com/NussbaumRachel/uvm-yapp-router-verification) (SystemVerilog / UVM)
+A complete, layered UVM 1.1d testbench for a 3-channel packet router, run on Cadence Xcelium.
+- **100% functional coverage** · 64 packets checked by the scoreboard · **0 mismatches / 0 UVM_ERROR**
+- YAPP interface UVC built from scratch: constrained-random packets, driver, monitor with **TLM analysis port** and covergroup
+- **Reference model + scoreboard** that mirrors the router's registers and predicts dropped packets (illegal address, oversized, router disabled)
+- Two checker styles: push model (`uvm_analysis_imp_decl`) and pull model (`uvm_tlm_analysis_fifo`)
+- **Virtual sequencer** coordinating the YAPP and HBUS interfaces; coverage closure with directed boundary values and cross coverage
+- `SystemVerilog` `UVM 1.1d` `Cadence Xcelium` `SimVision` `Functional Coverage` `Constrained Random`
 
 ### ♟️ [Kung Fu Chess](https://github.com/NussbaumRachel/Kung-Fu-Chess) — Real-time multiplayer game server (C++17)
 Chess without turns: every player moves in real time, with per-piece cooldowns.
@@ -39,6 +48,12 @@ A web app for running a charity Chinese auction — managing gifts, donors, cust
 ---
 
 ## 🛠️ Tech Stack
+
+**Hardware Verification:**
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-1F6FEB?style=flat)
+![UVM](https://img.shields.io/badge/UVM_1.1d-0E7C86?style=flat)
+![Cadence Xcelium](https://img.shields.io/badge/Cadence_Xcelium-B31B1B?style=flat)
+![Functional Coverage](https://img.shields.io/badge/Functional_Coverage-555555?style=flat)
 
 **Languages:**
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
